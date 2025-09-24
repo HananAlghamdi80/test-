@@ -1,0 +1,13 @@
+{
+  "name": "new-ci-project",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node index.js",
+    "lint": "echo \"Linting project...\" && exit 0",
+    "build": "echo \"Building project...\" && mkdir -p dist && cp index.js dist/",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
